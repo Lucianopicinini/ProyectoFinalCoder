@@ -1,0 +1,162 @@
+/* =========================
+   ESTILO GENERAL
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  text-align: center;
+  color: #333;
+}
+
+/* Encabezado principal */
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+/* =========================
+   INPUTS Y FILTROS
+========================= */
+input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Contenedor de filtros */
+.filtros {
+  margin: 20px;
+}
+
+/* Mensajes de estado (cargando, error, etc.) */
+#mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* =========================
+   LAYOUT PRINCIPAL
+========================= */
+.contenedor {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Catálogo de productos */
+.catalogo {
+  flex: 3;
+}
+
+/* Carrito lateral */
+.carrito-container {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   LISTA DE PRODUCTOS
+========================= */
+#listaProductos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* =========================
+   TARJETAS DE PRODUCTOS
+========================= */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+
+  /* efecto moderno */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Animación al pasar el mouse */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Imagen del producto */
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Título del producto */
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+/* Descripción */
+.card p {
+  color: gray;
+  margin: 0;
+}
+
+/* Precio destacado */
+.card strong {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Botones dentro de cards */
+.card button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Botón general */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hover botón general */
+button:hover {
+  background: #0056b3;
+}
+
+/* =========================
+   CARRITO
+========================= */
+#carrito {
+  margin: 20px;
+}
+
+header p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+header p b{
+  color: red;
+  font-size: 25px;
+}

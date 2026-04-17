@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "modelo": "iPhone 13",
+    "marca": "Apple",
+    "precio": "900.000",
+    "imagen": "https://backonline.cl/cdn/shop/products/iPhone_14_Pro_Deep_Purple_PDP_Image_Position-1a_CLES.jpg?v=1690317173"
+  },
+  {
+    "id": 2,
+    "modelo": "iPhone 14",
+    "marca": "Apple",
+    "precio": "999.000",
+    "imagen": "https://cl-cenco-pim-resizer.ecomm.cencosud.com/unsafe/adaptive-fit-in/792x1068/prd-cl/product-medias/0fdee300-f2f0-4093-8625-72dfaff72e03/MK6BVE1NJB/MK6BVE1NJB-3/1736256307712-MK6BVE1NJB-3-0.png"
+  },
+  {
+    "id": 3,
+    "modelo": "iPhone 15",
+    "marca": "Apple",
+    "precio": "959.000",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0z7cd-3LitqLzMSEK4uwyFQI48UvGfZbqSQ&s"
+  },
+
+  {
+    "id": 4,
+    "modelo": "Galaxy S21",
+    "marca": "Samsung",
+    "precio": "650.000",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sGQWUwZu0hTCwtVIUWXaCEhvIBT2h6dPvw&s"
+  },
+  {
+    "id": 5,
+    "modelo": "Galaxy S22",
+    "marca": "Samsung",
+    "precio": "700.000",
+    "imagen": "https://walmartcr.vtexassets.com/arquivos/ids/1043247/celular-samsung-a-26-256-gb-almacenamiento-colores-surtidos-8806097074502.webp?v=639034044051970000"
+  },
+
+    {
+    "id": 6,
+    "modelo": "Mate x6",
+    "marca": "Huawei",
+    "precio": "400.000",
+    "imagen": "https://mvsnoticias.com/u/fotografias/m/2024/11/4/f768x1-660049_660176_5050.jpg"
+  },
+    {
+    "id": 7,
+    "modelo": "Mate x5",
+    "marca": "Huawei",
+    "precio": "100.000",
+    "imagen": "https://rimage.ripley.cl/home.ripley/Attachment/WOP/1/2000405012194/image3-2000405012194"
+  },
+  {
+    "id": 8,
+    "modelo": "iPhone 13",
+    "marca": "Apple",
+    "precio": "900.000",
+    "imagen": "https://backonline.cl/cdn/shop/products/iPhone_14_Pro_Deep_Purple_PDP_Image_Position-1a_CLES.jpg?v=1690317173"
+  },
+  {
+    "id": 9,
+    "modelo": "iPhone 14",
+    "marca": "Apple",
+    "precio": "900.000",
+    "imagen": "https://cl-cenco-pim-resizer.ecomm.cencosud.com/unsafe/adaptive-fit-in/792x1068/prd-cl/product-medias/0fdee300-f2f0-4093-8625-72dfaff72e03/MK6BVE1NJB/MK6BVE1NJB-3/1736256307712-MK6BVE1NJB-3-0.png"
+  },
+  {
+    "id": 10,
+    "modelo": "iPhone 15",
+    "marca": "Apple",
+    "precio": "1.200.000",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0z7cd-3LitqLzMSEK4uwyFQI48UvGfZbqSQ&s"
+  },
+
+  {
+    "id": 11,
+    "modelo": "Galaxy S21",
+    "marca": "Samsung",
+    "precio": "650.000",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sGQWUwZu0hTCwtVIUWXaCEhvIBT2h6dPvw&s"
+  },
+  {
+    "id": 12,
+    "modelo": "Galaxy S22",
+    "marca": "Samsung",
+    "precio": "700.000",
+    "imagen": "https://walmartcr.vtexassets.com/arquivos/ids/1043247/celular-samsung-a-26-256-gb-almacenamiento-colores-surtidos-8806097074502.webp?v=639034044051970000"
+  },
+
+    {
+    "id": 13,
+    "modelo": "Mate x6",
+    "marca": "Huawei",
+    "precio": "400.000",
+    "imagen": "https://mvsnoticias.com/u/fotografias/m/2024/11/4/f768x1-660049_660176_5050.jpg"
+  },
+    {
+    "id": 14,
+    "modelo": "Mate x5",
+    "marca": "Huawei",
+    "precio": "100.000",
+    "imagen": "https://rimage.ripley.cl/home.ripley/Attachment/WOP/1/2000405012194/image3-2000405012194"
+    }
+]

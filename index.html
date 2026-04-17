@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Celulares</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Toastify -->
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+
+<header>
+  <h1>Catálogo de Celulares</h1>
+  <p>La mejor plataforma para comprar tu <b>PROXIMO</b> celular.</p>
+</header>
+
+<div class="contenedor">
+
+  <!-- IZQUIERDA -->
+  <div class="catalogo">
+    <section class="filtros">
+      <input type="text" id="filtro" placeholder="Buscar por marca...">
+    </section>
+
+    <section class="filtroPrecio">
+      <input type="text" id="precioMin" placeholder="Precio mínimo">
+      <input type="text" id="precioMax" placeholder="Precio máximo">
+      <button id="btnPrecio">Filtrar precio</button>
+      <button id="btnReset">Limpiar filtros</button>
+    </section>
+
+    <section id="listaProductos"></section>
+  </div>
+
+  <!-- DERECHA (CARRITO) -->
+  <div class="carrito-container">
+    <h2>Carrito</h2>
+    <div id="carrito"></div>
+
+    <h3>Total: $<span id="total">0</span></h3>
+    <button id="btnComprar">Finalizar compra</button>
+  </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
